@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My portifólio</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="#" class="logo">iagoQz</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#services">Serviços</a>
+            <a href="#contact">Contato</a>
+
+        </nav>
+
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="home-img">
+
+            <img src="/ASSETS/iago.jpg" />
+
+        </div>
+
+        <section class="home" id="home">
+
+            <div class="home-content">
+
+                <h1>Iago Meirim</h1>
+
+                <h3 class="typing-text">Sou um <span>Dev de Software Full Stack</span></h3>
+
+                <p>Sou apaixonado por tecnologia e estou sempre em busca de novos desafios. Meu objetivo é elevar o nível do seu negócio no meio digital trazendo grandes soluções de maneira prática e descomplicada.</p>
+
+                <div class="social-icon">
+
+                    <a href="https://www.instagram.com/iagoqz" target="_blank">
+
+                        <i class='fa-brands fa-instagram'></i>
+
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/iago-meirim-9a5175337/" target="_blank">
+
+                        <i class='fa-brands fa-linkedin'></i>
+
+                    </a>
+
+                    <a href="https://github.com/IagoMeirim" target="_blank">
+
+                        <i class='fa-brands fa-github'></i>
+
+                    </a>
+
+                </div>
+
+                <a href="https://wa.link/5onlih"
+                    class="btn">AGENDAR BATE-PAPO</a>
+
+            </div>
+
+        </section>
+
+    </section>
+    <section class="skills" id="skills">
+
+        <h2 class="heading">Hablidades<span></span></h2><br>
+
+        <div class="skills-row">
+
+            <div class="skills-column">
+
+                <h3 class="title">Habilidades de codificação</h3>
+
+                <div class="skills-box">
+
+                    <div class="skills-content">
+
+                        <div class="progress">
+
+                            <h3>HTML <span>90%</span></h3>
+
+                            <div class="bar"><span></span></div>
+
+                        </div>
+
+                        <div class="progress">
+
+                            <h3>CSS <span>85%</span></h3>
+
+                            <div class="bar"><span></span></div>
+
+                        </div>
+
+                        <div class="progress">
+
+                            <h3>Python <span>65%</span></h3>
+                            <div class="bar"><span></span></div>
+
+                        </div>
+
+                        <div class="progress">
+
+                            <h3>SQL(Banco) <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="services" id="services">
+
+        <h2 class="heading">Serviços<span></span></h2><br><br>
+
+        <div class="services-container">
+
+            <div class="service-box">
+
+                <div class="service-info">
+
+                    <br>
+                    <h4>Desenvolvimento de Web sites.</h4>
+                    <p>Ofereço a criação e manutenção de sites. Isso inclui o desenvolvimento front-end e
+                        back-end. Utilizo linguagens como HTML, CSS, JavaScript.</p>
+
+                </div>
+
+            </div>
+
+            <div class="service-box">
+
+                <div class="service-info">
+
+                    <br>
+                    <h4>Criação de aplicações Ecommerce.</h4>
+                    <p>Implemento funcionalidades que permitem aos usuários comprar produtos online: Carrinhos de
+                        compras, sistemas de pagamento e gerenciamento.</p>
+
+                </div>
+
+            </div>
+
+            <div class="service-box">
+
+                <div class="service-info">
+
+                    <br>
+                    <h4>Manipulação de Dados (Automatização)</h4>
+                    <p>Manipulo dados de bancos de várias maneiras, utilizando bibliotecas e frameworks específicos para a integração e gestão de dados. As operações mais comuns incluem conectar ao banco de dados, realizar consultas (queries), inserir, atualizar e excluir dados e gerenciar transações. </p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h2 class="heading">Meu Contato<span></span></h2>
+        <p class="ajuda">Ficarei feliz em ajudar você!</p>
+
+        <form action="" id="contactForm">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="number" name="phone" placeholder="Número de telefone" required>
+                <input type="text" name="subject" placeholder="Assunto">
+            </div>
+
+            <textarea name="message" placeholder="Sua mensagem" required></textarea>
+
+            <input type="submit" value="Enviar mensagem" class="btn">
+        </form>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="social">
+
+            <a href="https://www.linkedin.com/in/iago-meirim-9a5175337/" target="_blank">
+
+                <i class='fa-brands fa-linkedin'></i>
+
+            </a>
+
+            <a href="https://www.instagram.com/iagoqz" target="_blank">
+
+                <i class='fa-brands fa-instagram'></i>
+
+            </a>
+
+
+            <a href="https://github.com/IagoMeirim" target="_blank">
+
+                <i class='fa-brands fa-github'></i>
+
+            </a>
+
+            <a href="#"><i class='fa-brands fa-twitter'></i></a>
+
+        </div>
+
+        <ul class="list">
+
+            <li><a href="#">Perguntas frequentes</a></li>
+            <li><a href="#">Serviço</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Políticas de Privacidade</a></li>
+
+        </ul>
+
+        <p class="copyright">
+
+            Todos os direitos reservados.
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
